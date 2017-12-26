@@ -1,0 +1,122 @@
+
+body{
+  background-color: #e6ecf0;
+  overflow-x: hidden;
+  font-family: "Segoe UI", Arial, sans-serif!important;
+
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.feedAuthor{
+  font-family: "Segoe UI", Arial, sans-serif!important;
+}
+/*.content
+{
+  padding-top: 38px;
+}*/
+.navSearch{
+  display: block;
+  outline: 0;
+  width: 100%;
+  height: 65%;
+  background-color: #f5f8fa;
+  border: 1px solid #e6ecf0;
+  border-radius: 40px;
+  font-size: 12px;
+  color: #14171a;
+  padding-left: 10px;
+}
+
+.navSearch:focus{
+  background-color: #ffffff;
+  border: 2px solid #1da1f2;
+}
+.searchMe{
+  position: relative;
+  display: inline-block;
+}
+.searchMe .fa-search{
+  color: grey;
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.tweetStats:hover{
+  color:#1da1f2!important;
+  cursor: pointer;
+}
+
+.hoverLink:hover{
+  cursor:pointer;
+  text-decoration: underline;
+}
+.refContainer{
+  background-color: #f5f8fa;
+  padding-bottom: 1px;
+}
+.refContainer:hover{
+  background-color: #f4f4f4;
+  cursor:pointer;
+}
+.refreshTweets{
+  color:#1da1f2 !important;
+  cursor:pointer;
+}
+.refreshTweets:hover{
+    background-color: #f5f8fa;
+}
+.feedGrid:hover{
+  cursor:pointer;
+  background-color: #f5f8fa;
+}
+
+.feedAuthor{
+  font-family: "Segoe UI", Arial, sans-serif!important;
+}
+
+.feedAuthor:hover{
+  font-family: "Segoe UI", Arial, sans-serif!important;
+  cursor:pointer;
+  color:#1da1f2 ;
+  text-decoration: underline;
+}
+
+.cardHover:hover{
+  cursor:pointer;
+  color:#1da1f2 ;
+}
+
+.followMe:hover{
+  cursor:pointer;
+  color:#1da1f2 ;
+  text-decoration: underline;
+}
+
+.aboutLinks{
+  float: left;
+  padding-right: 8px;
+}
+
+ .aboutLinks:hover{
+  cursor:pointer;
+  text-decoration: underline;
+  color:#1da1f2;
+}
+
+
+.advertiseLink:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}
+.fa-external-link:hover{
+  
+  cursor:pointer;
+}
