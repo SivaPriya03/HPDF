@@ -39,7 +39,7 @@ class About extends Component{
                 </Grid>
                 <Grid item style={{padding:"1.250em"}}>
                     <Typography type="caption" className="advertiseLink" style={{fontFamily: "\"Segoe UI\",  \"Arial\", sans-serif",color:"#1da1f2"}}>
-                        <Tooltip title="Advertise with Twitter" placement="top">
+                        <Tooltip title="Advertise with Twitter" placement="top" className={classes.text}>
                                  <i className="fa fa-external-link"/>
                         </Tooltip>
                        &nbsp;Advertise with Twitter

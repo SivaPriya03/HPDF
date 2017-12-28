@@ -58,7 +58,7 @@ class Feed extends Component{
                                                         <i className="fa fa-comment-o " aria-hidden="true">
                                                         </i>
                                                     </Tooltip>
-                                                     <span className="cardHover" style={{fontSize:"12px",color:"grey",fontWeight:600}} className="cardAction">
+                                                     <span style={{fontSize:"12px",color:"grey",fontWeight:600}} className="cardAction">
                                                         &nbsp;&nbsp;500
                                                     </span>
                                                 </Grid>
@@ -233,7 +233,7 @@ class Feed extends Component{
                                                     </span>
                                                 </Grid>
                                                 <Grid item xs={2} className="cardHover">
-                                                    <Tooltip title="Like" placement="top" placement="top">
+                                                    <Tooltip title="Like" placement="top">
                                                         <i className="fa fa-heart-o " aria-hidden="true">
                                                         </i>
                                                     </Tooltip>

@@ -57,20 +57,20 @@ class FeedData extends Component{
                                 </Grid>
                                 <Grid item>
                                     <Card className="feedCard" style={{maxWidth:"345 ",boxShadow:"none",width:"490px"}}>
-                                        <CardMedia image={Tw1} className={classes.media}style={{height:"400px"}}/>
+                                        <CardMedia image={Tw1} className={classes.media} style={{height:"400px"}}/>
                                         <CardActions>
                                             <Grid container>
                                                 <Grid item xs={2} className="cardHover">
-                                                    <Tooltip title="Reply" placement="top">
+                                                    <Tooltip title="Reply" placement="top" style={{fontFamily: "\"Segoe UI\",  \"Arial\", sans-serif",}}>
                                                         <i className="fa fa-comment-o " aria-hidden="true">
                                                         </i>
                                                     </Tooltip>
-                                                     <span className="cardHover" style={{fontSize:"12px",color:"grey",fontWeight:600}} className="cardAction">
+                                                     <span  style={{fontSize:"12px",color:"grey",fontWeight:600}} className="cardAction">
                                                         &nbsp;&nbsp;2.2k
                                                     </span>
                                                 </Grid>
                                                 <Grid item xs={2} className="cardHover">
-                                                    <Tooltip title="Retweet" placement="top">
+                                                    <Tooltip title="Retweet" placement="top" style={{fontFamily: "\"Segoe UI\",  \"Arial\", sans-serif",}}>
                                                         <i className="fa fa-retweet " aria-hidden="true">
                                                         </i>
                                                     </Tooltip>
@@ -79,7 +79,7 @@ class FeedData extends Component{
                                                     </span>
                                                 </Grid>
                                                 <Grid item xs={2} className="cardHover">
-                                                    <Tooltip title="Like" placement="top">
+                                                    <Tooltip title="Like" placement="top" >
                                                         <i className="fa fa-heart-o " aria-hidden="true">
                                                         </i>
                                                     </Tooltip>
@@ -146,7 +146,7 @@ class FeedData extends Component{
                                                     <span style={{fontSize:"12px",color:"grey",fontWeight:600}} className="cardAction">
                                                         &nbsp;&nbsp;2.2k
                                                     </span>
-                                                </Grid>
+                                                </Grid> 
                                                 <Grid item xs={2} className="cardHover">
                                                     <Tooltip title="Retweet" placement="top">
                                                         <i className="fa fa-retweet " aria-hidden="true">
@@ -221,7 +221,7 @@ class FeedData extends Component{
                                                         <i className="fa fa-comment-o " aria-hidden="true">
                                                         </i>
                                                     </Tooltip>
-                                                    <span style={{fontSize:"12px",color:"grey",fontWeight:600}} className="cardAction">
+                                                    <span  style={{fontSize:"12px",color:"grey",fontWeight:600}} className="cardAction">
                                                         &nbsp;&nbsp;2.2k
                                                     </span>
                                                 </Grid>
@@ -235,7 +235,7 @@ class FeedData extends Component{
                                                     </span>
                                                 </Grid>
                                                 <Grid item xs={2} className="cardHover">
-                                                    <Tooltip title="Like" placement="top" placement="top">
+                                                    <Tooltip title="Like" placement="top">
                                                         <i className="fa fa-heart-o " aria-hidden="true">
                                                         </i>
                                                     </Tooltip>

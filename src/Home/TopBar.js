@@ -77,7 +77,6 @@ class Top extends Component{
     };
 
     onSearch = (event)=>{
-          console.log(this.state.textSearch);
         let code = event.keyCode || event.which;
         if(code===13){
             this.setState({redirect:true});
@@ -85,7 +84,6 @@ class Top extends Component{
         }
     };
     onTabChange = (event, value) => {
-          console.log(this.state.textSearch);
            
         this.setState({ value });
     };
