@@ -20,7 +20,7 @@ Then copy all the files and folders in src folder<br/>
       Change ICOn and title in the index.html page resided in public repo<br/>
 
 
-#Hurrah You reached the FINAL STEP!!  
+#Hurray! You reached the FINAL STEP!!  
      Run:<br/>npm start  <br/>
   To start the server <br/>
 
