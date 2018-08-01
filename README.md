@@ -1,5 +1,5 @@
 #HPDF-Task 1
-    The task is to clone the [Twitter Home page](https:www.twitter.com) 
+    The task is to clone the [Twitter Home page](https://www.twitter.com) 
             and the [Search results of aadhar](https://twitter.com/search?q=aadhaar) using [ReactJS](https://reactjs.org/)
 
 
